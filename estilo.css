@@ -1,0 +1,137 @@
+/******************
+Seletor universal 
+*{
+	border:1px solid red;
+}*/
+
+/*******************
+Seletor de texto 
+h1{
+	color: green;
+}*/
+
+/******************
+Seletor de classes
+p.verde{
+	color: green;
+}
+
+#cabecalho{
+	border:1px solid blue;
+}*/
+
+/********************
+Seletor de filho
+li>a {
+	color:red;
+	text-decoration: none;
+}*/
+
+/********************
+Seletor descendente
+p a{
+	color:green;
+	text-decoration: none;
+}*/
+/**********************
+Seletor de irmão adjacentes
+h1+p{
+	color: red;
+}*/
+
+/*Seletor de irmão geral
+	color: pink;
+}*/
+
+/***********************
+Herança e Especifidade*/
+
+/**{
+	border:5px solid blue;
+}*/
+
+/*body{
+	color: red;
+	/*border:5px solid blue;
+		
+}*/
+
+
+/* Seletores iguais exceção imortant
+#pagina p{
+	color: red !important;
+}
+
+#pagina p{
+	color:blue;
+}*/
+
+/*Se um seletor for mais especifico que outro, a regra mais especifica será aplicada
+(terá uma precedência sobre as regras mais gerais)*/
+/*
+*{
+	color: red;
+}*/
+
+/*h2{
+	color:blue;Aplica se em 3º
+}*/
+
+/*h2.verde{
+	color:green;Aplica-se em  2º
+}*/
+
+/*h2#amarelo{
+	color:yellow;/*Aplica-se em  1º
+}
+*/
+
+/********************
+Barra de navegaçãoo vertical */
+/*
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	padding: 5px 20px;
+	border:1px solid red;
+	background:url(../imagens/seta.png) no-repeat left center;
+}*/
+
+ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+ul a {
+	/*border:1px solid red;*/	
+	width: 200px;
+	height: 40px;
+	display: block;
+	color:#000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url(../imagens/menu.png) no-repeat;
+}
+
+a:hover{
+	background-position: right bottom;
+	background-color: #f99200;
+	color:#fff;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contatos #navegacao .contatos a{
+	background-position: right bottom;
+	background-color: #f99200;
+	color:#fff;
+}
+
